@@ -3,22 +3,17 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+rails 5.1.5
+ruby 2.5
+qt 5.5
 
-* Ruby version
+bundle install
 
-* System dependencies
+brew install yarn
 
-* Configuration
+rails webpacker:install
+rails webpacker:install:react
+rails generate react:install
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+yarn install

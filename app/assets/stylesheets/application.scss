@@ -1,0 +1,11 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "react-toastify/dist/ReactToastify";
+
+.shippable {
+  max-height: 300px;
+}
+
+.shipping-list {
+  max-height: 700px;
+}

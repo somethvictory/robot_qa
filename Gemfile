@@ -29,7 +29,6 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'ffaker'
   gem 'phantomjs'
-  gem 'poltergeist'
   gem 'capybara',               '~> 2.13'
   gem 'capybara-webkit'
 end

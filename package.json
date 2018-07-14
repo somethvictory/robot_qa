@@ -1,5 +1,5 @@
 {
-  "name": "robot_qa",
+  "name": "robot_factory",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.5.5",
@@ -7,7 +7,13 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react_ujs": "^2.4.4"
+    "react_ujs": "^2.4.4",
+    "react-bootstrap": "^0.32.1",
+    "lodash": "^4.17.4",
+    "react-toastify": "^4.1.0",
+    "titleize": "^1.0.1",
+    "core-js": "^2.5.7",
+    "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"

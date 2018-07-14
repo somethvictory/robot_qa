@@ -6,7 +6,7 @@ class Robot < ApplicationRecord
   validates :color, presence: true
 
   belongs_to :color
-  belongs_to :shipment
+  belongs_to :shipment, optional: true
 
   delegate :blue?, to: :color
 

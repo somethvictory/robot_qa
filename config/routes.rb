@@ -1,3 +1,16 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root to: 'dashboard#index'
+
+  resources :robots, only: [:index] do
+    collection do
+      post :recycle
+      get :qa_passed
+      get :factory_second
+    end
+    member do
+      post :extinguish
+    end
+  end
+
+  put '/shipments/create'
 end

@@ -12,7 +12,9 @@ bundle install
 brew install yarn
 
 rails webpacker:install
+
 rails webpacker:install:react
+
 rails generate react:install
 
 yarn install
